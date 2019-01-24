@@ -92,10 +92,10 @@ export class FormRendererComponent implements OnInit {
   checkSection(node: NodeBase) {
     if (node.question.renderingType === 'section') {
       let groupChildrenHidden = false;
-      let allSectionControlsHidden = Object.keys(node.children).every((k) => {
-        let innerNode = node.children[k];
+      const allSectionControlsHidden = Object.keys(node.children).every((k) => {
+        const innerNode = node.children[k];
         if (innerNode instanceof GroupNode) {
-          groupChildrenHidden = Object.keys(innerNode.children).every((i) => innerNode.children[i].control.hidden)
+          groupChildrenHidden = Object.keys(innerNode.children).every((i) => innerNode.children[i].control.hidden);
         }
         return node.children[k].control.hidden || groupChildrenHidden;
       });
@@ -129,7 +129,7 @@ export class FormRendererComponent implements OnInit {
       document.body.scrollTop = 0;
     }
   }
-  public  tabSelected($event) {
+  public tabSelected($event) {
     this.activeTab = $event;
     this.setPreviousTab();
   }
