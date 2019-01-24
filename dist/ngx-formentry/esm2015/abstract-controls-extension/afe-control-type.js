@@ -1,6 +1,6 @@
 /**
  * @fileoverview added by tsickle
- * @suppress {checkTypes,extraRequire,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+ * @suppress {checkTypes} checked by tsc
  */
 /** @enum {number} */
 const AfeControlType = {
@@ -10,8 +10,9 @@ const AfeControlType = {
     None: 3,
 };
 export { AfeControlType };
-AfeControlType[AfeControlType.AfeFormControl] = 'AfeFormControl';
-AfeControlType[AfeControlType.AfeFormArray] = 'AfeFormArray';
-AfeControlType[AfeControlType.AfeFormGroup] = 'AfeFormGroup';
-AfeControlType[AfeControlType.None] = 'None';
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiYWZlLWNvbnRyb2wtdHlwZS5qcyIsInNvdXJjZVJvb3QiOiJuZzovL25neC1vcGVubXJzLWZvcm1lbnRyeS8iLCJzb3VyY2VzIjpbImFic3RyYWN0LWNvbnRyb2xzLWV4dGVuc2lvbi9hZmUtY29udHJvbC10eXBlLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7Ozs7OztJQUNJLGlCQUFjO0lBQ2QsZUFBWTtJQUNaLGVBQVk7SUFDWixPQUFJIiwic291cmNlc0NvbnRlbnQiOlsiZXhwb3J0IGVudW0gQWZlQ29udHJvbFR5cGUge1xuICAgIEFmZUZvcm1Db250cm9sLFxuICAgIEFmZUZvcm1BcnJheSxcbiAgICBBZmVGb3JtR3JvdXAsXG4gICAgTm9uZVxufVxuIl19
+AfeControlType[AfeControlType.AfeFormControl] = "AfeFormControl";
+AfeControlType[AfeControlType.AfeFormArray] = "AfeFormArray";
+AfeControlType[AfeControlType.AfeFormGroup] = "AfeFormGroup";
+AfeControlType[AfeControlType.None] = "None";
+
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiYWZlLWNvbnRyb2wtdHlwZS5qcyIsInNvdXJjZVJvb3QiOiJuZzovL25neC1vcGVubXJzLWZvcm1lbnRyeS8iLCJzb3VyY2VzIjpbImFic3RyYWN0LWNvbnRyb2xzLWV4dGVuc2lvbi9hZmUtY29udHJvbC10eXBlLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiIiLCJzb3VyY2VzQ29udGVudCI6WyJleHBvcnQgZW51bSBBZmVDb250cm9sVHlwZSB7XG4gICAgQWZlRm9ybUNvbnRyb2wsXG4gICAgQWZlRm9ybUFycmF5LFxuICAgIEFmZUZvcm1Hcm91cCxcbiAgICBOb25lXG59XG4iXX0=
